@@ -1,1 +1,23 @@
+#include <algorithm>
+#include <iostream>
+#include <vector>
 
+using namespace std;
+
+int main() {
+	int a,b,c,d,e,f,h;
+	cin>>a>>b;
+	c=a+b;
+	d=a-b;
+	e=a*b;
+	f=a/b;
+	h=a%b;
+	cout<<"sum="<<c<<"\n";
+	cout<<"subtration="<<d<<"\n";
+	cout<<"multiplicaton="<<e<<"\n";
+	cout<<"divison="<<f<<"\n";
+	cout<<"modulus division"<<h<<"\n";
+		// Your code goes here;
+
+	return 0;
+}
